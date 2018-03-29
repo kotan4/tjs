@@ -1,5 +1,3 @@
-
-
 const a = parseFloat(prompt('Введите значение A'));
 writeMsg('Если A = ' + a);
 
@@ -29,4 +27,4 @@ writeMsg('Непонимаю как но x = ' + square(a,b,c, true) + ', а x²
 
 function writeMsg(inf) {
     document.write(inf + '<br>');
-}..
+}
