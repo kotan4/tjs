@@ -10,14 +10,14 @@ writeMsg('Если C = ' + c);
 writeMsg('Решим уравнение a·x² + b·x + c = 0');
 
 function square(a,b,c,x) {
-    let d = b*b - 4*a*c;
+    let d = b * b - 4 * a * c;
 
-    if (d < 0 && (x === true||x===false)) {
+    if (d < 0 && (x === true||x === false)) {
         return "нет корня"
     } else if (x === true) {
-        return ((b * -1) + Math.sqrt(d))/ 2*a
+        return ((b * -1) + Math.sqrt(d))/ (2*a)
     }  else if (x === false) {
-        return ((b * -1) - Math.sqrt(d))/ 2*a
+        return ((b * -1) - Math.sqrt(d))/ (2*a)
     }
 }
 
